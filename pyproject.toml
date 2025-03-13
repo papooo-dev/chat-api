@@ -1,15 +1,17 @@
 [project]
 name = "chat-api"
 version = "0.1.0"
-description = "character llm"
+description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "yewool.jeong",email = "papooo.dev@gmail.com"}
 ]
-license = {text = "na"}
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.12,<4.0"
 dependencies = [
-    "requests (>=2.32.3,<3.0.0)"
+    "langchain (>=0.3.20,<0.4.0)",
+    "fastapi (>=0.115.11,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "pydantic (>=2.10.6,<3.0.0)"
 ]
 
 
