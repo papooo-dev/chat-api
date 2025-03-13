@@ -1,0 +1,41 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Poetry & PDM 관련 파일
+poetry.lock
+pdm.lock
+
+# pip 설치 캐시
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code / PyCharm 관련 설정 파일
+.vscode/
+.idea/
+
+# Logs & Debug
+logs/
+*.log
+*.out
+*.err
+
+# OS별 불필요한 파일
+.DS_Store
+Thumbs.db
